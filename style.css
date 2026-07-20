@@ -2,3 +2,10 @@
     width: 50vw;
     height: auto;
 }
+
+#name {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Arial Black', sans-serif;
+}
