@@ -8,9 +8,35 @@
 </head>
 <body>
     <div class="image-container"></div>
-        <img src="./images/title_img.heic" class="title">
+        <img src="./images/title_img.JPEG" class="title">
         <img src="./schrift/fuck.png" class="fuck">
     </div>
-    <img src="./images/karomuster.JPG" class="karomuster">
+
+    <div class="content">
+        
+        <model-viewer class="heart"
+            src="./heart/heartanimation.glb"
+            camera-controls
+            autoplay
+            tone-mapping="neutral">
+        </model-viewer>
+
+        <img src="./images/karomuster.jpg" class="karomuster">
+
+    </div>
+    <img src="./schrift/iam.png" class="iam">
+
+    <div class="content2">
+        <img src="./images/psycho.JPG" class="psycho">
+
+        <model-viewer class="cube"
+            src="./heart/heartanimation.glb"
+            camera-controls
+            autoplay
+            tone-mapping="neutral">
+        </model-viewer>
+    </div>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
 </body>
 </html>

@@ -22,9 +22,31 @@
     margin-top: 1rem;
     font-family: 'Arial Black', sans-serif;
 }
-.karomuster{
-    width: 50vw;
-    display: block;
-    margin-left: auto;
-    margin-top: 2vw;
+ 
+
+body {
+    margin: 0;
+    overflow-x: hidden;
 }
+
+.content, .content2{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+
+.heart,.psycho {
+    width: 50%;
+    height: 70vw;
+}
+
+.karomuster, .cube {
+    width: 50%;
+    height: auto;
+}
+.iam{
+    width: 100%;
+    height: auto;
+}
+
