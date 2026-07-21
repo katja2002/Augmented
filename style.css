@@ -5,17 +5,26 @@
 
 .title {
     display: block;
+    width:100vw;
+    margin:none;
 }
 
 .fuck {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    transform: translate(-48%, -50%);
 }
 #name {
     font-size: 3vw;
     text-align: center;
     margin-top: 1rem;
     font-family: 'Arial Black', sans-serif;
+}
+.karomuster{
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-top: 2vw;
 }
