@@ -1,8 +1,35 @@
+@font-face {
+    font-family:anton;
+    src: url(./fonts/anton.ttf);
+}
 .image-container {
     position: relative;
     display: inline-block;
 }
+.navbar {
+    margin-top:4vw;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 
+    display: flex;
+    gap: 40px;
+
+    z-index: 10;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: rgb(154, 24, 24);
+}
 .title {
     display: block;
     width:100vw;
@@ -67,4 +94,80 @@ body {
 
 #insane{
     margin-top: 7vw;
+}
+
+.contactinformation{
+    display:flex;
+    justify-content:center;
+    gap:5vh;
+    margin-top:10vh;
+    align-items: center;
+    
+
+}
+
+#info{
+     font-family: "Segoe UI", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#contact{
+    font-family: anton;
+    font-size: 10vw;
+}
+
+.about h1{
+    font-family:anton;
+    font-size:6vh;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.about img{
+    width: 50%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 10vh;
+}
+
+.about p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:2vh;
+    font-weight: 1;
+    margin-right: 2vw;
+}
+
+.about-container .me{
+    display:block;
+    margin-left:auto;
+    width:55vw;
+    margin-right:5vw;
+    margin-top: 10vh
+}
+
+.about-container{
+    display:flex;
+    margin-top: 5vw;
+    margin-left: 4vw;
+}
+
+.about-container .about{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:top;
+    margin-top: 20vw;
+}
+
+.insanity{
+    width: 100%;
+    height: auto;
+}
+.insanity-container{
+    background-image: url("./images/background_insanity.jpg");
+
+    background-position: center;
+    padding:13.5vw;
 }
