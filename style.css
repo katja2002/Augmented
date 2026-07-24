@@ -116,6 +116,31 @@ body {
     font-family: anton;
     font-size: 10vw;
 }
+.image-overlay {
+    position: relative;
+    width: 120%;
+    z-index: 1;
+}
+
+.insanity,
+.lines {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.insanity{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .about h1{
     font-family:anton;
@@ -151,6 +176,7 @@ body {
     display:flex;
     margin-top: 5vw;
     margin-left: 4vw;
+    z-index: 2;
 }
 
 .about-container .about{
@@ -161,13 +187,3 @@ body {
     margin-top: 20vw;
 }
 
-.insanity{
-    width: 100%;
-    height: auto;
-}
-.insanity-container{
-    background-image: url("./images/background_insanity.jpg");
-
-    background-position: center;
-    padding: 11vw;
-}

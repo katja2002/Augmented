@@ -2,8 +2,8 @@
 
 
 
-const image = document.getElementById("shrek");
-const sound = new Audio("./sound(2).mp3");
+const image = document.getElementById("psycho");
+const sound = new Audio("./sound.mp3");
 
 image.addEventListener("click", () => {
     sound.currentTime = 0;
